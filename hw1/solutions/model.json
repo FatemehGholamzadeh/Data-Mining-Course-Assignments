@@ -1,0 +1,41 @@
+{
+    "dimensions": [
+        { "name":"continent"},
+          {"name":"agegroup"},
+          {"name":"sport"},
+          {"name": "gender"}
+    ],
+    "cubes": [
+        {
+            "name": "london12",
+            "dimensions": ["continent", "agegroup","sport","gender"],
+            "measures": [
+                {"name":"gold", "label":"Gold"},
+                {"name": "silver","label": "Silver"},
+                {"name": "bronze","label": "Bronze"}
+            ],
+            "aggregates": [
+                    {
+                        "name": "gold_sum",
+                        "expression": "sum(gold)"
+                    },
+                   {
+                        "name": "silver_sum",
+                        "expression": "sum(silver)"
+                    },
+                  {
+                        "name": "bronze_sum",
+                        "expression": "sum(bronze)"
+                    },
+                  {
+                        "name": "Medals_sum",
+                        "expression": "sum(gold+silver+bronze)"
+                    },
+                    {
+                        "name": "record_count",
+                        "function": "count"
+                    }
+                ]
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Oct 03, 2019 at 02:38 PM
+-- Server version: 10.1.34-MariaDB
+-- PHP Version: 7.2.8
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `olapdb`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `irbd_balance`
+--
+
+CREATE TABLE `irbd_balance` (
+  `category` varchar(255) NOT NULL,
+  `category_label` varchar(255) NOT NULL,
+  `subcategory` varchar(255) NOT NULL,
+  `subcategory_label` varchar(255) NOT NULL,
+  `line_item` varchar(255) NOT NULL,
+  `year` float NOT NULL,
+  `amount` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `irbd_balance`
+--
+
+INSERT INTO `irbd_balance` (`category`, `category_label`, `subcategory`, `subcategory_label`, `line_item`, `year`, `amount`) VALUES
+('a', 'Assets', 'dfb', 'Due from Banks', 'Unrestricted currencies', 2010, 1581),
+('a', 'Assets', 'dfb', 'Due from Banks', 'Unrestricted currencies', 2009, 2380),
+('a', 'Assets', 'dfb', 'Due from Banks', 'Currencies subject to restriction', 2010, 222),
+('a', 'Assets', 'dfb', 'Due from Banks', 'Currencies subject to restriction', 2009, 664),
+('a', 'Assets', 'i', 'Investments', 'Trading', 2010, 36012),
+('a', 'Assets', 'i', 'Investments', 'Trading', 2009, 41012),
+('a', 'Assets', 's', 'Securities', 'Securities purchased under resale agreements', 2010, 289),
+('a', 'Assets', 's', 'Securities', 'Securities purchased under resale agreements', 2009, 33),
+('a', 'Assets', 'nn', 'Nonnegotiable', 'Nonnegotiable, nonintrest-bearing demand obligations on account of subscribed capital', 2010, 1123),
+('a', 'Assets', 'nn', 'Nonnegotiable', 'Nonnegotiable, nonintrest-bearing demand obligations on account of subscribed capital', 2009, 1202),
+('a', 'Assets', 'da', 'Derivative Assets', 'Investments', 2010, 13249),
+('a', 'Assets', 'da', 'Derivative Assets', 'Investments', 2009, 18467),
+('a', 'Assets', 'da', 'Derivative Assets', 'Client operations', 2010, 17633),
+('a', 'Assets', 'da', 'Derivative Assets', 'Client operations', 2009, 19559),
+('a', 'Assets', 'da', 'Derivative Assets', 'Borrowings', 2010, 87457),
+('a', 'Assets', 'da', 'Derivative Assets', 'Borrowings', 2009, 82793),
+('a', 'Assets', 'da', 'Derivative Assets', 'Other', 2010, 3287),
+('a', 'Assets', 'da', 'Derivative Assets', 'Other', 2009, 2246),
+('a', 'Assets', 'rcv', 'Receivables', 'Receivables to maintain value of currency holdings on account of subscribed capital', 2010, 171),
+('a', 'Assets', 'rcv', 'Receivables', 'Receivables to maintain value of currency holdings on account of subscribed capital', 2009, 176),
+('a', 'Assets', 'orcv', 'Other Receivables', 'Receivables from investment securities traded', 2010, 47),
+('a', 'Assets', 'orcv', 'Other Receivables', 'Receivables from investment securities traded', 2009, 95),
+('a', 'Assets', 'orcv', 'Other Receivables', 'Accrued income on loans', 2010, 764),
+('a', 'Assets', 'orcv', 'Other Receivables', 'Accrued income on loans', 2009, 889),
+('a', 'Assets', 'lo', 'Loans Outstanding', 'Net loans outstanding', 2010, 118104),
+('a', 'Assets', 'lo', 'Loans Outstanding', 'Net loans outstanding', 2009, 103657),
+('a', 'Assets', 'oa', 'Other Assets', 'Assets under retirement benefit plans', 2010, 0),
+('a', 'Assets', 'oa', 'Other Assets', 'Assets under retirement benefit plans', 2009, 325),
+('a', 'Assets', 'oa', 'Other Assets', 'Premises and equipment (net)', 2010, 635),
+('a', 'Assets', 'oa', 'Other Assets', 'Premises and equipment (net)', 2009, 625),
+('a', 'Assets', 'oa', 'Other Assets', 'Miscellaneous', 2010, 2436),
+('a', 'Assets', 'oa', 'Other Assets', 'Miscellaneous', 2009, 1297),
+('l', 'Liabilities', 'b', 'Borrowings', 'All', 2010, 128577),
+('l', 'Liabilities', 'b', 'Borrowings', 'All', 2009, 110040),
+('l', 'Liabilities', 'sol', 'Sold or Lent', 'Securities Sold under Repurchase Agreements, Securities Lent under Securities Lending Agreements, and Payable for Cash Collateral Received', 2010, 998),
+('l', 'Liabilities', 'sol', 'Sold or Lent', 'Securities Sold under Repurchase Agreements, Securities Lent under Securities Lending Agreements, and Payable for Cash Collateral Received', 2009, 2323),
+('l', 'Liabilities', 'dl', 'Derivative Liabilities', 'Investments', 2010, 13360),
+('l', 'Liabilities', 'dl', 'Derivative Liabilities', 'Investments', 2009, 18923),
+('l', 'Liabilities', 'dl', 'Derivative Liabilities', 'Client Operations', 2010, 17623),
+('l', 'Liabilities', 'dl', 'Derivative Liabilities', 'Client Operations', 2009, 19551),
+('l', 'Liabilities', 'dl', 'Derivative Liabilities', 'Borrowings', 2010, 78655),
+('l', 'Liabilities', 'dl', 'Derivative Liabilities', 'Borrowings', 2009, 76321),
+('l', 'Liabilities', 'dl', 'Derivative Liabilities', 'Other', 2010, 780),
+('l', 'Liabilities', 'dl', 'Derivative Liabilities', 'Other', 2009, 847),
+('l', 'Liabilities', 'o', 'Other', 'Payable to Maintain Value of Currency Holdings on Account of Subscribed Capital', 2010, 8),
+('l', 'Liabilities', 'o', 'Other', 'Payable to Maintain Value of Currency Holdings on Account of Subscribed Capital', 2009, 57),
+('l', 'Liabilities', 'ol', 'Other Liabilities', 'Payable for investment securities purchased', 2010, 307),
+('l', 'Liabilities', 'ol', 'Other Liabilities', 'Payable for investment securities purchased', 2009, 2457),
+('l', 'Liabilities', 'ol', 'Other Liabilities', 'Accrued charges on borrowings', 2010, 1190),
+('l', 'Liabilities', 'ol', 'Other Liabilities', 'Accrued charges on borrowings', 2009, 1495),
+('l', 'Liabilities', 'ol', 'Other Liabilities', 'Liabilities under retirement benefit plans', 2010, 1164),
+('l', 'Liabilities', 'ol', 'Other Liabilities', 'Liabilities under retirement benefit plans', 2009, 662),
+('l', 'Liabilities', 'ol', 'Other Liabilities', 'Accounts payable and misc liabilities', 2010, 2793),
+('l', 'Liabilities', 'ol', 'Other Liabilities', 'Accounts payable and misc liabilities', 2009, 2707),
+('e', 'Equity', 'cs', 'Capital Stock', 'Paid-in capital', 2010, 11492),
+('e', 'Equity', 'cs', 'Capital Stock', 'Paid-in capital', 2009, 11491),
+('e', 'Equity', 'da', 'Deferred Amounts', 'Deferred Amounts to Maintain Value of Currency Holdings', 2010, 313),
+('e', 'Equity', 'da', 'Deferred Amounts', 'Deferred Amounts to Maintain Value of Currency Holdings', 2009, 359),
+('e', 'Equity', 're', 'Retained Earnings', 'Retained Earnings', 2010, 28793),
+('e', 'Equity', 're', 'Retained Earnings', 'Retained Earnings', 2009, 29870),
+('e', 'Equity', 'oe', 'Other', 'Accumulated Other Comorehensive Loss', 2010, -3043),
+('e', 'Equity', 'oe', 'Other', 'Accumulated Other Comorehensive Loss', 2009, -1683);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
