@@ -7,16 +7,21 @@
   implementing Association Rules Mining algorithms : Aprioro and FP-Growth
   
  ## HW3  
- ### question 1 :  
+ ### Question 1  
  * classification of diabetes data by Logistic Regression
- ### question 2 :  
+ ### Question 2   
  * predict truth of a question by naive bayes 
- ### question 3 :   
+ ### Question 3    
  * predict death of Titanic passengers, pre-processing and feature engineering is also needed.
 
  ## HW4  
- * question 1 : implementation of perceptron algorithm
- * question 2 : clustering using kmeans and dbscan algorithms
- * question 3 : classification of MNIST dataset using :
+ ### Question 1    
+ * implementation of perceptron algorithm  
+ 
+ ### Question 2    
+ * clustering using kmeans and dbscan algorithms  
+ 
+ ### Question 3    
+ * classification of MNIST dataset using :
    *  fully connected Neural Network
    *  Convolutional Neural Network
