@@ -8,7 +8,12 @@
   
  # HW3  
  ## Question 1  
- * classification of diabetes data by Logistic Regression
+ * classification of diabetes data by Logistic Regression  
+ 
+### Cost reduction over time is as follows: 
+![image](https://user-images.githubusercontent.com/44861408/135252744-2c3e84cd-189e-4dbd-8b37-2865ea7eecd7.png)
+
+
  ## Question 2   
  * predict truth of a question by naive bayes 
  ## Question 3    
