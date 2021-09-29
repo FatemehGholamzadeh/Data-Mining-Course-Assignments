@@ -11,3 +11,7 @@
  * question 2 : predict truth of a question by naive bayes 
  * question 3 : predict death of Titanic passengers, pre-processing and feature engineering is also needed.
 
+ ## HW4  
+ * question 1 : implementation of perceptron algorithm
+ * question 2 : predict truth of a question by naive bayes 
+ * question 3 : predict death of Titanic passengers, pre-processing and feature engineering is also needed.
