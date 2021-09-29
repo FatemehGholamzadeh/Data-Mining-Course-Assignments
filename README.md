@@ -31,6 +31,9 @@
  
  ### kmeans on second dataset:  
    
+   ![image](https://user-images.githubusercontent.com/44861408/135251830-a8e80188-64b7-46ea-8f4b-71ec376c7bea.png)
+
+   
 
 
  
