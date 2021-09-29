@@ -54,6 +54,13 @@
  
 
    ![image](https://user-images.githubusercontent.com/44861408/135253716-e1aff9ab-6e35-4cf5-8a1d-663ced83eb7c.png)
+   
+       
+ ### dendrogram of hierarchical clustering on second dataset :  
+
+   
+   ![image](https://user-images.githubusercontent.com/44861408/135254029-e619cc7c-aaba-4dbe-be74-6b12efb7ddb8.png)
+
 
  ## Question 3    
  * classification of MNIST dataset using :
