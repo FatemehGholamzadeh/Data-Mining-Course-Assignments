@@ -16,9 +16,11 @@
 
  # HW4  
  ## Question 1    
- * implementation of perceptron algorithm  
+ * implementation of perceptron Learning algorithm  
  the algorithm is as follows:  
-   
+     
+     ![image](https://user-images.githubusercontent.com/44861408/135252315-17f40027-bb76-41ac-baeb-b9864163a10b.png)
+
    
   
  
