@@ -18,15 +18,20 @@
  ## Question 1    
  * implementation of perceptron algorithm  
  the algorithm is as follows:  
- 
- 
+   
+   
+  
  
  ## Question 2    
  * clustering using kmeans and dbscan algorithms  
- kmeans on first dataset:  
+ ### kmeans on first dataset:  
    
    
  ![image](https://user-images.githubusercontent.com/44861408/135231983-5e977ac0-5366-448e-b65d-383edb13eafa.png)
+ 
+ ### kmeans on second dataset:  
+   
+
 
  
  ## Question 3    
