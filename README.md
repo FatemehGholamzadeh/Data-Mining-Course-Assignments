@@ -34,6 +34,15 @@
    ![image](https://user-images.githubusercontent.com/44861408/135251830-a8e80188-64b7-46ea-8f4b-71ec376c7bea.png)
 
    
+  ### dbscan on first dataset:  
+
+     ![image](https://user-images.githubusercontent.com/44861408/135251958-dd5d6d35-ab52-452a-b344-08167ef12e01.png)   
+     
+       
+  ### dbscan on second dataset:  
+
+![image](https://user-images.githubusercontent.com/44861408/135252073-2caf8add-7157-49b3-b7bf-6cf0cd8ed9fd.png)
+
 
 
  
