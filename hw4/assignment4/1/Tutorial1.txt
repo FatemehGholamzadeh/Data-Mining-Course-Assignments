@@ -1,0 +1,33 @@
+1) Data set
+
+This contains cancer data set from sklearn.
+This data set has 569 observations and 30 variables excluding the class variable. This data is an imbalanced
+data set, that means the classes ‘0’ and ‘1’ are not represented equally.
+First,Try to balance data set using methods you have learned in class if possible.explain about ways you have
+used in your report and test them.
+if it is not possible or is not efficient,explain why. reload new data set(if it ha changed).
+after loading,return target and values of the dataset as x,y.(you can do it via "breast-cancer.data" and "breastcancer.
+target" commands).
+Then you need to scale data to bring all features in 0-1 range. after that, split data into "train" and "test".
+
+2) Building Model
+You should write all your model in a class named "perceptron". then for each parts below, you can write
+functions in this class.
+First,initialize the weights vector w and threshold b to None.
+Write a function that takes input values x as an argument and perform the weighted aggregation of inputs
+(dot product between w.x) and returns the value 1 if the aggregation is greater than the threshold b else 0
+Write a function that takes input values x as an argument and for every observation present in x, calculates
+the predicted outcome and returns a list of predictions.
+Write a function to learn the best possible weight vector w and threshold value b for the given data.It takes
+’input data(x,y)’, ’learning rate’ and ’number of epochs’ as arguments.
+
+3) Run and Evaluate
+initialize the main class fit the model to the train data.
+evaluate the model performance on the test data via calculating the testing accuracy.
+
+
+4) Further optimization
+Take random weights in your model and test the result.
+Vary the train-test size split and see if accuracy changes.
+Choose larger ’epochs sizes’, ’learning rates’. test on the model and visualize the change in accuracy.
+
