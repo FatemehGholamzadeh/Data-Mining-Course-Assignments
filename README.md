@@ -47,8 +47,7 @@
        
   ### dbscan on second dataset:  
 
-![image](https://user-images.githubusercontent.com/44861408/135252073-2caf8add-7157-49b3-b7bf-6cf0cd8ed9fd.png)
-
+![image](https://user-images.githubusercontent.com/44861408/135253399-93b2b307-fbf8-44cd-ac30-d67c16ab0d40.png)
 
 
  
