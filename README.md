@@ -38,7 +38,7 @@
  
  ### kmeans on second dataset:  
    
-![image](https://user-images.githubusercontent.com/44861408/135252959-b432bc0f-6c9f-457c-915b-4045302027e3.png)
+![image](https://user-images.githubusercontent.com/44861408/135253142-0bca5f9d-0f2e-4e52-a587-ecaef1346fb9.png)
 
    
   ### dbscan on first dataset:  
