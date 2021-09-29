@@ -34,7 +34,7 @@
  ### kmeans on first dataset:  
    
    
- ![image](https://user-images.githubusercontent.com/44861408/135231983-5e977ac0-5366-448e-b65d-383edb13eafa.png)
+![image](https://user-images.githubusercontent.com/44861408/135253241-74a7fe63-ea7d-4beb-b6df-a7344c0df03b.png)
  
  ### kmeans on second dataset:  
    
