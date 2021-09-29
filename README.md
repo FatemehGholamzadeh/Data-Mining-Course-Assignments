@@ -43,8 +43,7 @@
    
   ### dbscan on first dataset:  
 
-![image](https://user-images.githubusercontent.com/44861408/135252205-4b17dc28-d202-4043-a4c8-e1f856793e11.png)
-     
+![image](https://user-images.githubusercontent.com/44861408/135253329-ddfdd908-05ab-4805-9b79-0394367a0a5d.png)     
        
   ### dbscan on second dataset:  
 
