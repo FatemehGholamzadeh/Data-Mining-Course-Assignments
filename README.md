@@ -14,3 +14,6 @@
  ## HW4  
  * question 1 : implementation of perceptron algorithm
  * question 2 : clustering using kmeans and dbscan algorithms
+ * question 3 : classification of MNIST dataset using :
+   *  fully connected Neural Network
+   *  Convolutional Neural Network
