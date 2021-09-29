@@ -50,7 +50,11 @@
 ![image](https://user-images.githubusercontent.com/44861408/135253399-93b2b307-fbf8-44cd-ac30-d67c16ab0d40.png)
 
 
+ ### dendrogram of hierarchical clustering on first dataset :  
  
+
+   ![image](https://user-images.githubusercontent.com/44861408/135253716-e1aff9ab-6e35-4cf5-8a1d-663ced83eb7c.png)
+
  ## Question 3    
  * classification of MNIST dataset using :
    *  fully connected Neural Network
