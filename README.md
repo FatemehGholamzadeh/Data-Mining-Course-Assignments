@@ -7,7 +7,7 @@
   implementing Association Rules Mining algorithms : Aprioro and FP-Growth
   
  ## HW3  
- * question 1 : classification of diabetes data by Regression
+ * question 1 : classification of diabetes data by Logistic Regression
  * question 2 : predict truth of a question by naive bayes 
  * question 3 : predict death of Titanic passengers, pre-processing and feature engineering is also needed.
 
